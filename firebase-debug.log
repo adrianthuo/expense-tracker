@@ -1,0 +1,21 @@
+[debug] [2024-01-04T06:57:09.958Z] ----------------------------------------------------------------------
+[debug] [2024-01-04T06:57:09.961Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Adrian.Thuo\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-01-04T06:57:09.961Z] CLI Version:   13.0.2
+[debug] [2024-01-04T06:57:09.961Z] Platform:      win32
+[debug] [2024-01-04T06:57:09.961Z] Node Version:  v20.10.0
+[debug] [2024-01-04T06:57:09.962Z] Time:          Thu Jan 04 2024 09:57:09 GMT+0300 (East Africa Time)
+[debug] [2024-01-04T06:57:09.962Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-04T06:57:09.969Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-04T06:57:09.970Z] > authorizing via signed-in user (adrianthuo@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Adrian.Thuo\Desktop\react\expense-tracker
+
