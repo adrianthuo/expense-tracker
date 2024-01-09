@@ -4,6 +4,7 @@ import {auth , provider } from "../../config/firebase-config";
 import {signInWithPopup} from 'firebase/auth';
 import styled from "styled-components";
 
+
 import {useNavigate} from "react-router-dom"
 
  export const Auth = ( )=> {
@@ -21,6 +22,7 @@ const navigate = useNavigate();
             navigate("/expense-tracker");
    };
     return (
+      
     <Wrap>
         <div className="login-page">
         
@@ -33,6 +35,7 @@ const navigate = useNavigate();
             </Button>
         </div>
     </Wrap>
+    
         
         );
 };
@@ -40,21 +43,20 @@ const navigate = useNavigate();
 
 const Wrap = styled.div`
 
-  border: 1px solid red ;
-  height: 80vh ;
-  align-items : center ;
-  font-size: x-large;
-  margin-left: 25%;
-  margin-top: 5%;
-  width: 50%;
-    border-radius: 60px;
-    background-color: rgb(148 163 184);
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+
+
 
   p{
 
     align-text: center ;
-    color: red ;
+    color: blue ;
+    font-weight: 600 ;
     margin-top: 10%;
+    font-size: 20px;
   }
 
 `
@@ -63,5 +65,23 @@ const Button = styled.button`
   border:none;
   border-radius: 10px;
   margin-top: 15%;
+  background: #fff;
+	font-size: 14px;
+	margin-top: 30px;
+	padding: 20px 20px;
+	border-radius: 26px;
+	border: 1px solid #D4D3E8;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	color: #4C489D;
+	cursor: pointer;
+  
+  &:hover{
+    background-color: #FF7F7F ;
+  }
+	
   
 `
